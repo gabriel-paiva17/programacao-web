@@ -10,9 +10,8 @@
 .entradas-formulario {
 
     border: 1px solid;
-    margin: auto;
     max-width: fit-content;
-    
+
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -33,3 +32,11 @@
     text-align: center;
 
 }
+
+.confirmar {
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

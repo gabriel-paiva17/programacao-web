@@ -8,7 +8,6 @@
 .entradas-formulario {
 
     border: 1px solid;
-    flex-direction: column;
 
 }
 
@@ -21,6 +20,6 @@
 
 .campo {
 
-    justify-content: center;
+    text-align: center;
 
 }

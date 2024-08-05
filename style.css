@@ -12,18 +12,21 @@
     border: 1px solid;
     max-width: fit-content;
 
+    margin: auto;
+
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 425px;
     left: 50%;
     transform: translateX(-50%);
-    
 }
 
 
 .rodape { 
 
     border: 1px solid;
+
+    position: absolute;
+    bottom: 10px;
 
 }
 
@@ -39,4 +42,3 @@
     left: 50%;
     transform: translateX(-50%);
 }
-

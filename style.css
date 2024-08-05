@@ -1,0 +1,26 @@
+#titulo {
+
+    color: blue;
+    text-align: center;
+
+}
+
+.entradas-formulario {
+
+    border: 1px solid;
+    flex-direction: column;
+
+}
+
+
+.rodape { 
+
+    border: 1px solid;
+
+}
+
+.campo {
+
+    justify-content: center;
+
+}

@@ -4,13 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Programação Web</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Formulário de informações pessoais</h1>
-	<input type="text" placeholder="Insira Nome">
-	<input type="number" placeholder="Insira Idade">
-	<input type="text" placeholder="Insira CPF">
+	<h1 id="titulo">Formulário de informações pessoais</h1>
+	<div class="entradas-formulario">
+		<div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Insira Nome" id="nome">
+        </div>
+        <div class="campo">
+            <label for="idade">Idade:</label>
+            <input type="number" placeholder="Insira Idade" id="idade">
+        </div>
+        <div class="campo">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="Insira CPF" id="cpf">
+        </div>
+	</div>
 	<button>Ok!</button>
-	<footer>Criado por Gabriel Paiva</footer>
+	<footer class="rodape">Criado por Gabriel Paiva</footer>
 </body>
 </html>

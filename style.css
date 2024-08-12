@@ -10,7 +10,7 @@
 .entradas-formulario {
 
     border: 1px solid;
-    max-width: fit-content;
+    width: 300px;
 
     position: fixed;
     top: 50%;
@@ -35,7 +35,12 @@
 
 .campo {
 
-    text-align: center;
+    position: relative;
+    left: 50px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 
 }
 
@@ -44,4 +49,18 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#idade {
+
+    margin-left: 4px;
+
+}
+
+#cpf {
+
+    margin-left: 11px;
+
+
+
 }

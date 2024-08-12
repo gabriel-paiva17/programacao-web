@@ -44,13 +44,6 @@
 
 }
 
-.confirmar {
-    
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 #idade {
 
     margin-left: 4px;
@@ -62,5 +55,15 @@
     margin-left: 11px;
 
 
+
+}
+
+.confirmar {
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin-bottom: 5px;
 
 }

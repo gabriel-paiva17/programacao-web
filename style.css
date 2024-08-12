@@ -12,12 +12,11 @@
     border: 1px solid;
     max-width: fit-content;
 
-    margin: auto;
-
-    position: absolute;
-    top: 425px;
+    position: fixed;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    
 }
 
 
@@ -25,8 +24,12 @@
 
     border: 1px solid;
 
-    position: absolute;
+    position: fixed;
     bottom: 10px;
+
+    width: 100%;
+
+    text-align: center;
 
 }
 

@@ -22,14 +22,19 @@
 
 .rodape { 
 
-    border: 1px solid;
-
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
+    left: 0px;
+
 
     width: 100%;
 
     text-align: center;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    background-color: blue;
 
 }
 

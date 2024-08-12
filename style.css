@@ -1,14 +1,22 @@
+body {
+
+    background-color: blueviolet;
+
+
+}
 
 
 #titulo {
 
-    color: blue;
     text-align: center;
 
 }
 
 .entradas-formulario {
 
+    background-color: palevioletred;
+
+    border-radius: 10px;
     border: 1px solid;
     width: 300px;
 
@@ -34,7 +42,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
 
-    background-color: blue;
+    background-color: palevioletred;
 
 }
 

@@ -2,9 +2,10 @@ let confirmar = document.getElementById("confirmar");
 
 confirmar.addEventListener("click", submit);
 
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const emailRegex = /^[\w.-]+@[\w-]+.[a-zA-Z]{2,}$/;
 
 function submit() {
+    
     let nome = document.getElementById("nome").value;
     let idade = document.getElementById("idade").value;
     let email = document.getElementById("email").value;

@@ -2,7 +2,7 @@ let confirmar = document.getElementById("confirmar");
 
 confirmar.addEventListener("click", submit);
 
-const emailRegex = /^[\w.-]+@[\w-]+.[a-zA-Z]{2,}$/;
+const emailRegex = /^\w+([.-]+\w)*@[\w-]+\.[a-zA-Z]{2,}$/;
 
 function submit() {
     
